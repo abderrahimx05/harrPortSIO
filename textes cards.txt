@@ -1,0 +1,11 @@
+Echarpe deluxe Harry Potter Gryffondor pourpre et or
+
+La Coupe des 3 Sorciers
+
+Baguette magique de Harry Potter avec boîte Ollivander
+////
+<footer class="bg-dark text-light p-3 text-end sticky-bottom">
+  <div class="container">
+    © Harry Potter
+  </div>
+</footer>

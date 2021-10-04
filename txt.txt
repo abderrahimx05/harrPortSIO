@@ -1,0 +1,54 @@
+<!-- MODAL -->
+<div id="echarpeModal" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5>Echarpe deluxe Harry Potter Gryffondor pourpre et or</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button> <!-- Le bouton pour fermer la fenêtre modale -->
+      </div>
+      <div class="modal-body">
+        <img src="images/echarpe.jpeg" alt="Echarpe" class="w-100" />
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+        <button class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Bientôt disponible">Ajouter au panier</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="coupeModal" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5>La Coupe des 3 Sorciers</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button> <!-- Le bouton pour fermer la fenêtre modale -->
+      </div>
+      <div class="modal-body">
+        <img src="images/coupe.jpeg" alt="Coupe" class="w-100" />
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+        <button class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Bientôt disponible">Ajouter au panier</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="baguetteModal" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5>Baguette magique de Harry Potter avec boîte Ollivander</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button> <!-- Le bouton pour fermer la fenêtre modale -->
+      </div>
+      <div class="modal-body">
+        <img src="images/baguette.jpeg" alt="Baguette" class="w-100" />
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+        <button class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Bientôt disponible">Ajouter au panier</button>
+      </div>
+    </div>
+  </div>
+</div>

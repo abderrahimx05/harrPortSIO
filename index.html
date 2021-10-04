@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Poudlar</title>
+    <link rel="shortcut icon" type="image/png" href="images/poudlard.png" />
+  </head>
+  <body>
+    <header class="text-center p-5">
+      <img src="images/logo.png" />
+    </header>
+
+    <section id="haut">
+      <a href="#haut" class="link-light active">Accueil</a>
+      <a href="#m_vente" class="link-light">Boutique du chateau</a>
+      <a href="#missions" class="link-light">Les 4 maisons</a>
+      <div class="container">
+        <div class="row">
+          <div class="col text-white p-5">
+            <h3 class="text-center">
+              Inscriptions ouvertes
+              <span class="d-block fw-light mt-5">Année 2121-2122</span>
+            </h3>
+            <div class="dropdown text-center">
+              <button
+                type="button"
+                class="btn btn-outline-light dropdown-toggle"
+                data-bs-toggle="dropdown"
+              >
+                Documents
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Dossier d'inscription</a>
+                <a class="dropdown-item" href="#">Règlement intérieur</a>
+                <a class="dropdown-item" href="#"
+                  >Documents concernant l'internat</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h1 id="m_vente" class="text-center">Meilleures ventes</h1>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-body">
+            <img src="./images/echarpe.jpeg" class="img-thumbnail" alt="" />
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Echape de luxe Harry Potter Gryffondor pourpre et or</li>
+            </ul>
+            <button
+              type="button"
+              class="w-100 btn btn-outline-secondary"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop1"
+            >
+              Acheter
+            </button>
+            <div
+              class="modal fade"
+              id="staticBackdrop1"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel1"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel1">
+                      Echape de luxe Harry Potter Gryffondor pourpre et or
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img
+                      src="./images/echarpe.jpeg"
+                      class="img-thumbnail"
+                      alt=""
+                    />
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Fermer
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="bottom"
+                      title="Bientôt disponible"
+                    >
+                      Ajouter au panier
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-body">
+            <img src="./images/coupe.jpeg" class="img-thumbnail" alt="" />
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>La Coupe des 3 Sorciers</li>
+            </ul>
+            <button
+              type="button"
+              class="w-100 btn btn-outline-secondary"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Acheter
+            </button>
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabe2"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabe2">
+                      La Coupe des 3 Sorciers
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img
+                      src="./images/coupe.jpeg"
+                      class="img-thumbnail"
+                      alt=""
+                    />
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Fermer
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="bottom"
+                      title="Bientôt disponible"
+                    >
+                      Ajouter au panier
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-body">
+            <img src="./images/baguette.jpeg" class="img-thumbnail" alt="" />
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Baguette magique de Harry Potter avec boite Oliivander</li>
+            </ul>
+            <button
+              type="button"
+              class="w-100 btn btn-outline-secondary"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop2"
+            >
+              Acheter
+            </button>
+            <div
+              class="modal fade"
+              id="staticBackdrop2"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel2"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel2">
+                      Baguette magique de Harry Potter avec boite Oliivander
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img
+                      src="./images/baguette.jpeg"
+                      class="img-thumbnail"
+                      alt=""
+                    />
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Fermer
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="bottom"
+                      title="Bientôt disponible"
+                    >
+                      Ajouter au panier
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 id="missions" class="text-center">Les 4 maisons</h1>
+    <div
+      id="carouselExampleControls"
+      class="carousel slide w-50 mx-auto"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./images/poufsouffle.png"
+            class="d-block fs-1 mx-auto"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/serdaigle.png"
+            class="d-block fs-1 mx-auto"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/serpentard.png"
+            class="d-block fs-1 mx-auto"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span aria-hidden="true"
+          ><img class="carouse" src="./images/flecheGauche.png" alt=""
+        /></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span aria-hidden="true"
+          ><img class="carouse" src="./images/flecheDroite.png" alt=""
+        /></span>
+      </button>
+    </div>
+
+    <footer class="bg-dark text-light p-3 text-end sticky-bottom">
+      <div class="container">© Harry Potter</div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    >
+      <!-- pour le tooltip -->
+      <script>
+      	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      	var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      		return new bootstrap.Tooltip(tooltipTriggerEl)
+      	})
+    </script>
+  </body>
+</html>
